@@ -26,6 +26,6 @@ int main()
     int n;
     cout<<"enter n ";
     cin>>n;
-    pattern1(n);
+    pattern12(n);
     }
 }
