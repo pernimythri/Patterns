@@ -1,0 +1,23 @@
+void pattern21(int n)
+{
+    for(int i=0;i<n;i++)
+    {
+       for(char ch='E'-i;ch<='E';ch++)
+       {
+       cout<<ch<<" ";
+       }
+        cout<<endl;
+       }}   
+int main()
+{  
+    int t;
+    cout<<"enter t ";
+    cin>>t;
+    for(int i=0;i<t;i++)
+    {
+    int n;
+    cout<<"enter n ";
+    cin>>n;
+    pattern1(n);
+    }
+}
