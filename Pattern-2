@@ -10,15 +10,17 @@ void pattern2(int n)
     }
     
 }
-void pattern2(int n)
-{
-    for(int i= 0; i< n;i++)
+
+int main()
+{  
+    int t;
+    cout<<"enter t ";
+    cin>>t;
+    for(int i=0;i<t;i++)
     {
-        for( int j=0;j<=i;j++)
-        {
-            cout<<"*";
-       }
-    cout<<endl;
+    int n;
+    cout<<"enter n ";
+    cin>>n;
+    pattern2(n);
     }
-    
 }
